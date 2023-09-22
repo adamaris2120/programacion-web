@@ -83,9 +83,90 @@
         <Audio controls src="audio.ogg.opus" type="Audio/ogg"></Audio>
         <h3>Video</h3>
         <video controls src="Video.mp4"  width="350" height="250" alt="Video" ></video>
-        <h3>Iframe</h3><iframe width="560" height="315" src="https://youtu.be/FnN00mhsw3c?si=1_ghFOOCzsN94NjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FnN00mhsw3c?si=hXN00LY2dtCvVfnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+        
+        <h3>Tablas</h3>
+         <table>
+            <hr>
+            <table border = "1">
+            <thead>
+                <tr>
+                    <th colspan="8">Horario de clases</th>
+                </tr>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                    <th>Domingo</th>
+                
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programacion web</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td rowspan ="3">sin clase</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td rowspan ="3">sin clase</td>
+                    <td rowspan ="3">sin clase</td>
+                </tr>
+                <tr>
+                    <td>Base de datos</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                   
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>Diseño de interfaces</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    
+                    <td>12:00 pm a 14:00 pm</td>
+                    <td>12:00 pm a 14:00 pm</td>
+                    
+                </tr>
+            </tbody>
+         </table> 
+         <br>
+         <h3>Formularios</h3>
+         <form action="action.php">
+            <label form="Nombre">Nombre:</label>
+            <input type = "text" name ="Nombre " id = "Nombre" placeholder="Escribe tu nombre aquí" required>
+            <label for ="Email">Email:</label>
+            <input type = "email" name ="Email " id = "Email" placeholder="example@example" required>
+            <label for = "Pass">Contraseña:</label>
+            <input type="password" name = "Pass" id ="Pass">
+            <hr>
+            <label for ="Fecha de nacimiento">Fecha:</label>
+            <input type = "date" name ="Fecha" id ="Fecha" placeholder="Escrube tu fecha de nacimiento" required>
+            <label for = "number">Edad:</label>
+            <input type ="number" name ="number" min="0" max="10" id ="number">
+            <label for = "url">Redes sociales:</label>
+            <input type ="url" name="url" id="url">
+            <label for="color">Color:</label>
+            <input type="color"name="color" id="color">
+            <label for="tiempo">Escribe la hora</label>
+            <input type="time" name="tiempo" id="tiempo">
+            <label for="file">Sube un archivo</label>
+            <input type="file" name="file" id="file">
+            <label for="telefono">Agregue telefono</label>
+            <input type="tel" name="telefono" name="telefono">
+            <label for = "buscar"></label>
+            <input type="search" name="buscar" id="buscar">
+            <input type="reset" value="Borrar">
+            <input type = "submit" value = "Enviar">
 
-
-           
-                 </body>
+         </form> 
+     </body>
 </html>
